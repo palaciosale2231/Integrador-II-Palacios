@@ -1,0 +1,7 @@
+#bienvenida{
+    font-size: 15px;
+}
+#carrusel{
+    display: flex;
+    justify-content: center;
+}
