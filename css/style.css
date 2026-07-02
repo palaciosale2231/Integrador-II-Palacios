@@ -1,7 +1,96 @@
-#bienvenida{
-    font-size: 15px;
+body{
+    padding: 0%;
+    margin: 0%;
+     max-width: 4000px;
 }
-#carrusel{
-    display: flex;
-    justify-content: center;
+main{
+    padding: 5%;
+    background-color: rgb(67, 73, 76);
 }
+
+/*fondo de header*/
+
+.container-fluid{
+    background-color: rgb(67, 73, 76);
+    font-size: 4vh;
+    padding: 2%;
+border-radius: 15px;
+}
+
+/*Nav bar*/
+.navbar-nav .nav-link {
+  position: relative;
+  transition: all 0.3s ease;
+  color: rgb(16, 121, 76);
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+/*Animacion links*/
+.navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255); 
+  background-color: rgb(16, 121, 76) ;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*para que las imagenes midan lo mismo en carrusel*/
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/*para que las imagenes de las cartas midan lo mismo*/
+.card-group img{
+    height: 250px;
+ 
+}
+
+.card-body{
+   background-color: rgb(224, 217, 217);
+   
+}
+
+
+/*estilos para footer*/
+.card-body2{
+background-color: rgb(67, 73, 76);
+color: black;
+border: 2px black solid;
+}
+
+
+.card-header1{
+    background-color: rgb(38, 42, 45);
+    color: rgb(255, 255, 255);
+    border: 2px black solid;
+}
+
+/*color para titulo de bienvenida*/
+.bienvenida{
+    color: rgb(15, 110, 69);
+ 
+}
+
+/*color para texto de parrafo*/
+.text-B{
+    color: black;
+}
+
+/*color para titulo y parrafo de carrusel*/
+.carrusel-titulo{
+    color: rgb(16, 121, 76);
+}
+.parrafo-carrusel{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+/*color para minititulo de cards*/
+.card-title1{
+    color: rgb(6, 133, 135);
+}
+
+
+
