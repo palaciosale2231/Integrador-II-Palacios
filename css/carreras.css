@@ -1,0 +1,97 @@
+main{
+    padding: 3%;
+    padding-top: 0%;
+    background-color: rgb(38, 42, 45);
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+     max-width: 4000px;
+}
+main{
+    padding: 5%;
+    background-color: rgb(67, 73, 76);
+}
+.container-fluid{
+    background-color: rgb(67, 73, 76);
+    font-size: 4vh;
+}
+
+
+
+
+
+
+.container-fluid{
+padding: 2%;
+border-radius: 15px;
+
+
+}
+.navbar-nav .nav-link {
+  position: relative;
+  transition: all 0.3s ease;
+  color: rgb(16, 121, 76);
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+
+
+
+
+.navbar-nav .nav-link:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(16, 121, 76) ;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/*imagenes tengan mismo tamaño*/
+.card-img-carr{
+    height: 250px;
+}
+
+.titulo-carreras{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+    background-color: rgb(38, 42, 45);
+    color: rgb(9, 132, 80);
+    
+}
+/*fondo de carta carrera*/
+.card-body{
+    background-color: rgb(161, 154, 154);
+}
+
+.card{
+    border: 2px black solid;
+}
+.card-group img{
+    height: 250px;
+ 
+
+    /*footer estilos*/
+}
+.card-body{
+   background-color: rgb(224, 217, 217);
+   
+}
+.card-body2{
+background-color: rgb(67, 73, 76);
+color: black;
+border: 2px black solid;
+}
+
+
+
+
+.card-header1{
+    background-color: rgb(38, 42, 45);
+    color: rgb(255, 255, 255);
+    border: 2px black solid;
+}
